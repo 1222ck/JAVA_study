@@ -1,0 +1,13 @@
+package chapter5;
+
+public class Student {
+	int studentID;
+	String studentName;
+	int grade;
+	String address;
+	
+	public void showStudentInfo() {
+		System.out.println(studentName + "," + address); // 이름, 주소 출력
+	}
+// 학번, 이름, 학년, 주소 등 클래스 내부에 선언하여 객체 속성을 나타내는 변수를 멤버 변수라고 한다
+}

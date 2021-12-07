@@ -1,0 +1,15 @@
+package chapter5;
+
+public class FunctionTest {
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		int num2 = 20;
+		
+		int sum = add(num1, num2);
+		System.out.println(num1 + " + " + num2 + " = " + sum + "¿‘¥œ¥Ÿ");
+		// TODO Auto-generated method stub
+
+	}
+
+}

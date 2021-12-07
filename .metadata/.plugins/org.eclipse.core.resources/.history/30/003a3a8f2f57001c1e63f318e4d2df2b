@@ -1,0 +1,19 @@
+// 학생이 교통수단을 이용한 후 각자가 가진 돈의 변화와 버스, 지하철 수입의 합
+package cooperration;
+
+public class TakeTrans {
+	public static void main(String[ ] args) { 
+		Student studentJames = new Student("James", 5000); // 학생 생성
+		Student studentTomas = new Student("Tomas", 10000);
+		
+		Bus bus100 = new Bus(100); // 버스 번호가 100인 버스 생성
+		studentJames.takeBus(bus100);
+		studentJames.showInfo();
+		bus100.showInfo();
+		
+		Subway subwayGreen = new Subway("2호선");
+		studentTomas.takeSubway(subwayGreen);
+		studentTomas.showInfo();
+		subwayGreen.showInfo();
+	}
+}

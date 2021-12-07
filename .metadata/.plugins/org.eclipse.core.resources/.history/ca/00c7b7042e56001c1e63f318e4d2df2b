@@ -1,0 +1,29 @@
+package chapter2;
+
+public class practice3 {
+
+	public static void main(String[] args) {
+		int num;
+		num = -5 + 3 * 10 / 2;
+		System.out.println(num);
+		
+		int num1 = 10;
+		System.out.println(num1);
+		System.out.println(num1++);
+		System.out.println(num1);
+		System.out.println(--num1);
+		
+		int num2 = 10;
+		int num3 = 20;
+		boolean result;
+		
+		result = ((num2 > 10) && (num3 > 10));
+		System.out.println(result);
+		result = ((num2 > 10) || (num3 > 10));
+		System.out.println(result);
+		System.out.println(!result);
+		// TODO Auto-generated method stub
+
+	}
+
+}

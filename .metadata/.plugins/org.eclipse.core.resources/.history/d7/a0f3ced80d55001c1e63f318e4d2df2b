@@ -1,0 +1,13 @@
+package chapter2;
+
+public class Age {
+
+	public static void main(String[] args) {
+		int age;
+		age = 28;
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package hello;
+
+public class Hellokwon {
+
+	public static void main(String[] args) {
+		System.out.println("Hello Kwon");
+		System.out.println(7);
+		System.out.println(3);
+		System.out.println(3.14);
+		System.out.println("자바");
+		System.out.println("문자열끼리의" + "연결도 가능하다");
+		System.out.println("숫자" + 3 + "과 문자열의 연결도 가능하다");
+		// TODO Auto-generated method stub
+
+	}
+
+}
